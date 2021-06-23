@@ -3,8 +3,8 @@ from subprocess import Popen, call, check_output, PIPE, CalledProcessError
 
 CHAINS = {
     'mainnet': 'https://api.mainnet-beta.solana.com',
-    'testnet': 'https://testnet.solana.com',
-    'devnet': 'https://devnet.solana.com'
+    'testnet': 'https://api.testnet.solana.com',
+    'devnet': 'https://api.devnet.solana.com'
 }
 
 
